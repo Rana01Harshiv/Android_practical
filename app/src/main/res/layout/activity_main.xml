@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check box Example"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+                />
+        <CheckBox
+            android:id="@+id/cricket"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cricket"
+            android:gravity="center">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/football"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Football"
+            android:gravity="center">
+
+        </CheckBox>
+        <Button
+            android:id="@+id/cbbtn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Checkbox"
+
+            >
+
+        </Button>
+        <TextView
+            android:id="@+id/displaydata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button Example"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            >
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/rdg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/malerb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                >
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/femalerb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FeMale"
+                >
+
+            </RadioButton>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/rbdata1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            >
+
+        </Button>
+        <TextView
+            android:id="@+id/displayradiodata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Button Example"
+            android:textSize="20dp"
+            android:gravity="center"
+            >
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Wifi"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ToggleButton
+            android:id="@+id/togglebtn1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            >
+
+        </ToggleButton>
+        <TextView
+            android:id="@+id/tvtoggle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textSize="18dp"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Progress Bar Example"
+            android:textSize="20dp">
+
+
+        </TextView>
+
+        <Button
+            android:id="@+id/progressbtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+
+            android:text="Click for the Progress Bar">
+
+
+        </Button>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/intentbtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Intent Example" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
