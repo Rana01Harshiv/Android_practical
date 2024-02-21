@@ -28,8 +28,25 @@
     <ListView
         android:id="@+id/listview1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="300dp"
+        android:paddingBottom="10dp"
 
+        >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner Example"
+        android:textSize="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
