@@ -51,7 +51,7 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
 
-//        spinner example 
+//        spinner example
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(MainActivity2.this, android.R.layout.simple_spinner_item,getResources().getStringArray(R.array.teams));
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter1);
