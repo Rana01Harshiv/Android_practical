@@ -30,9 +30,11 @@ public class login_page extends AppCompatActivity {
                 String pass = password.getText().toString();
 
                 if((user.equals("admin")) && (pass.equals("admin"))){
+
                     Intent intent = new Intent(login_page.this,home_page.class);
                     intent.putExtra("username",user);
                     startActivity(intent);
+
                 }
                 else{
                     Toast.makeText(login_page.this, "Enter the correct Username or Password ", Toast.LENGTH_SHORT).show();
