@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".tic_tac_toe_aboutgame">
+    tools:context=".tic_tac_toe_aboutgame"
+    android:background="#C4E1DF"
+    >
 
     <TextView
         android:id="@+id/textView4"
@@ -23,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
+        android:textStyle="bold"
         android:text="About the Game" />
     <TextView
         android:id="@+id/textView3"
@@ -53,11 +56,5 @@
         android:text=""
         android:layout_marginTop="20dp"
         />
-
-
-
-
-
-
 
 </LinearLayout>

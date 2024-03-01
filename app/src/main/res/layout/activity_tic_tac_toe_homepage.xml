@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".tic_tac_toe_homepage"
     android:orientation="vertical"
+    android:background="#C4E1DF"
     >
 
 
@@ -15,6 +16,7 @@
         android:layout_height="wrap_content"
         android:text="Tic Tac Toe Game"
         android:gravity="center"
+        android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="30dp"
         android:textSize="30dp"
@@ -25,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="X Turn "
+        android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="30dp"
         android:textSize="20dp"
