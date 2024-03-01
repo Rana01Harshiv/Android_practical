@@ -60,6 +60,7 @@
         android:layout_marginTop="95dp"
         android:layout_marginBottom="220dp"
         android:text="Play"
+        android:onClick="mainhome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/player2Edt" />

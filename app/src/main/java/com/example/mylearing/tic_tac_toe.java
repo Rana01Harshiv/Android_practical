@@ -57,4 +57,9 @@ public class tic_tac_toe extends AppCompatActivity {
             }
         });
     }
+
+    public void mainhome(View view) {
+        Intent intent = new Intent(this,tic_tac_toe_homepage.class);
+        startActivity(intent);
+    }
 }
